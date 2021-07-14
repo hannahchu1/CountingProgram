@@ -1,0 +1,49 @@
+body{
+	background-color: #6a7c95;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: #ECE9E5;
+}
+#count{
+	background-color: #95836A;
+	padding-top: 0px;
+	margin-top: 100px;
+	padding-bottom: 80px;
+	margin-right: 125px;
+	margin-left: 125px;
+	border: 1px solid black;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	padding-top: 100px;
+	margin-top: 0px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+#bonus{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+#answer{
+	font-size: 20px;
+}
+
+#button3{
+	color: #ECE9E5;
+	background-color: #6D8992;
+	padding:5px 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hannah's Counting Program</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="count">
+<h1>Welcome to My Counting Program!</h1>
+<h2></h2>
+<h3>Let's start counting! Please enter a number!</h3>
+
+<input id="in1" type="number" name="num1">
+<button id="button1">Count By 1</button>
+<h4 id="h4-1"></h4>
+
+<input id="in2" type="number" name="num2">
+<button id="button2">Count By 2</button>
+<h4 id="h4-2"></h4>
+</div>
+
+<div id="bonus">
+	<h3>BONUS:</h3>
+	<h5>Click on the buttons below to calculate based on the numbers entered above!</h5>
+	<button onClick="return calculate()">ADD</button>
+	<button onClick="return calculate2()">SUBTRACT</button>
+	<button onClick="return calculate3()">MULTIPLY</button>
+	<button onclick="return calculate4()">DIVIDE</button>
+	<br><br>
+	<span id="answer"></span>
+</div>
+
+<button id="button3">Click Me for More Bonus!</button>
+<div id="x"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
